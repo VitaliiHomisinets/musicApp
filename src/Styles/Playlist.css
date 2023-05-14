@@ -1,0 +1,94 @@
+.imagePlylist img{
+    width: 320px;
+    height: 300px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 15px;
+}
+
+.playlistHeader{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 600px;
+    background: rgba(152, 152, 152, 0.4);
+    backdrop-filter: blur(8px);
+    filter: grayscale(100%);
+    
+ 
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.playlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+
+.track{
+   height: 275px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #111;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+    backdrop-filter: blur(8px);
+  
+    background: rgba(152, 152, 152, 0.4);
+   
+    overflow-y: scroll;
+  
+}
+*::-webkit-scrollbar {
+    width: 17px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: rgba(152, 152, 152, 0.4);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #9c9c9c;
+    border-radius: 10px;
+    border: 0px none #ffffff;
+  }
+.card{
+    display: grid;
+    grid-template-columns:  60px 380px 209px 70px;
+    grid-column-gap: 50px;
+    align-items: center;
+}
+.card:hover{
+    padding: 0px;
+    border-radius: 15px;
+    transition: .4s ease-in-out;
+    background-color: rgb(201, 199, 199);
+}
+.trackInfo{
+    display: flex;
+    flex-direction: column;
+}
+.playlistAlbum{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.imageTrack img{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border-radius: 15px;
+}

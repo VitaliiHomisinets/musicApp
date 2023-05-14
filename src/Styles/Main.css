@@ -1,0 +1,17 @@
+.main .back{
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz18cV3F5cwFm_yrRSd-k9v-uN1ViEe6A6ILL8uVPyQvKOPTRMdE9sOkUBhyoIbi5Mxj4oiiLAPELyNb1sqPvR2sjDDHLXkPskbbKEVQZorkJV4CT7gkJXfnLxJZjaskCG5ccDxuc0bvgKFX19m91mp6MdBfyJE3sWO-ibsSAmFu7Mje-J1yfdy8Zt/s5870/brandon-green-12Y9TWxvHSs-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    filter: grayscale(100%);
+    z-index: -1;
+    overflow: hidden;
+    padding-bottom: 30px;
+    
+
+   
+   
+}
